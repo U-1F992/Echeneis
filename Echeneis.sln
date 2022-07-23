@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echeneis", "Echeneis\Echeneis.csproj", "{B61F5064-BE67-4671-999D-F7F0CA790462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcaWrapper", "OrcaWrapper\OrcaWrapper.csproj", "{D25C1566-BC87-4BBC-8C0E-8521DFB7EA95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICriteria", "ICriteria\ICriteria.csproj", "{AA7CDDEC-03B3-44CD-B927-0B230DB5BD6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriteriaImpl", "CriteriaImpl\CriteriaImpl.csproj", "{2C37318C-5F1A-434F-872E-50530EFBFC17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B61F5064-BE67-4671-999D-F7F0CA790462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61F5064-BE67-4671-999D-F7F0CA790462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61F5064-BE67-4671-999D-F7F0CA790462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61F5064-BE67-4671-999D-F7F0CA790462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25C1566-BC87-4BBC-8C0E-8521DFB7EA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25C1566-BC87-4BBC-8C0E-8521DFB7EA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25C1566-BC87-4BBC-8C0E-8521DFB7EA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25C1566-BC87-4BBC-8C0E-8521DFB7EA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7CDDEC-03B3-44CD-B927-0B230DB5BD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7CDDEC-03B3-44CD-B927-0B230DB5BD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7CDDEC-03B3-44CD-B927-0B230DB5BD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7CDDEC-03B3-44CD-B927-0B230DB5BD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C37318C-5F1A-434F-872E-50530EFBFC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C37318C-5F1A-434F-872E-50530EFBFC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C37318C-5F1A-434F-872E-50530EFBFC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C37318C-5F1A-434F-872E-50530EFBFC17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

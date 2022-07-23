@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- To enable System.Windows.UIAutomation namespace, change TargetFramework to "net6.0-windows" and add UseWPF -->
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="ORCA GC Controller\**" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

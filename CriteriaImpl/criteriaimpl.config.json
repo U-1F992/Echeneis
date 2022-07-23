@@ -1,0 +1,36 @@
+{
+    "capture": {
+        "index": 2,
+        "width": 1920,
+        "height": 1080
+    },
+    "detect": {
+        "width": 140,
+        "height": 70,
+        "x": [
+            962,
+            1145,
+            1476
+        ],
+        "y": [
+            420,
+            506,
+            591
+        ]
+    },
+    "tessConfig": {
+        "datapath": "C:\\Program Files\\Tesseract-OCR\\tessdata\\",
+        "language": "eng",
+        "charWhitelist": "0123456789",
+        "oem": 3,
+        "psmode": 7
+    },
+    "target": {
+        "hp": 155,
+        "attack": 88,
+        "defence": 100,
+        "spAtk": 165,
+        "spDef": 130,
+        "speed": 130
+    }
+}
