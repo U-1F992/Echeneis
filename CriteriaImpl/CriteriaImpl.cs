@@ -61,8 +61,43 @@ public class CriteriaImpl : ICriteria
             Console.WriteLine("currentStats: {0}", currentStats.ToString());
             Console.WriteLine("======");
 
-            return currentStats == targetStats;
+            return MaybeEquals(targetStats, currentStats);
         }
+    }
+
+    public bool MaybeEquals(Stats stats1, Stats stats2)
+    {
+        // デフォルト言語ではOCR精度が低すぎるので、
+        // 3箇所以上一致していたらtrueとする妥協案
+
+        var count = 0;
+
+        if (stats1.HP == stats2.HP)
+        {
+            count++;
+        }
+        if (stats1.Attack == stats2.Attack)
+        {
+            count++;
+        }
+        if (stats1.Defense == stats2.Defense)
+        {
+            count++;
+        }
+        if (stats1.SpAtk == stats2.SpAtk)
+        {
+            count++;
+        }
+        if (stats1.SpDef == stats2.SpDef)
+        {
+            count++;
+        }
+        if (stats1.Speed == stats2.Speed)
+        {
+            count++;
+        }
+
+        return 3 <= count; 
     }
 }
 
